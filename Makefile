@@ -3,8 +3,6 @@
 #---------------------------------------------------------------------------------
 # Environment Setup
 #---------------------------------------------------------------------------------
-export DEVKITPRO=/opt/devkitpro
-export DEVKITARM=/opt/devkitpro/devkitARM
 ifeq ($(strip $(DEVKITPRO)),)
 $(error "Please set DEVKITPRO in your environment. export DEVKITPRO=<path to>devkitPRO")
 endif
